@@ -9,7 +9,7 @@
 #
 #  Author: Dr. Brian MacKay
 #
-#  Date: 7-4-2021
+#  Date: 11-25-2021
 #
 #  Modifications:
 #
@@ -29,9 +29,9 @@ X_MAX      = 3.0      # plot scale on x axis
 Y_MAX      = 1.0      # plot scale on y axis 
 X_LIMIT    = (-X_MAX, X_MAX)  # plot range x axis
 Y_LIMIT    = (-Y_MAX, Y_MAX)  # plot range y axis 
-PLOT_COLOR = (0.02, 0.02, 0.02)  # just the color of the graph
+PLOT_COLOR = (0.0, 0.0, 0.0)  # just the color of the graph (black)
 LINE_COLOR = '#33FF44'    # just the color of the lines 
-PLOT_SIZE  = (5,5)       # drawing size on canvas
+PLOT_SIZE  = (5,5)       # drawing size (stay under 5 to see window controls) 
 
 """--------------------------------------------------------
  Function: make_plot
